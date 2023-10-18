@@ -1,0 +1,45 @@
+<!Doctype>
+<html>
+    <head>
+        <script>
+            // https://www.youtube.com/watch?v=eprXmC_j9A4
+        </script>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                font-size: 1.5rem;
+            }
+            
+            div, span, article, section, header, footer, p, ul, li, label {
+                box-sizing: border-box;
+            }
+
+            .container {
+                display: flex;
+                height: 100vh;
+                background-color: lightgray;
+                /* flex-direction: column-reverse; */
+                /* flex-wrap: wrap-reverse; */
+                justify-content: space-around;
+            }
+
+            .item {
+                background: rgba(255, 0, 0, 0.5);
+            }
+
+            .item:nth-child(odd) {
+                background: rgba(255, 255, 0, 0.5);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">aaaaaaaaaaaaaaaaaaaa</div>
+            <div class="item">bbbbbbbbbbbbbbbbbbb</div>
+            <div class="item">cccccccccccccccccc3</div>
+            <div class="item">4</div>
+        </div>
+    </body>
+</html>
